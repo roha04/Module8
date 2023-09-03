@@ -1,9 +1,9 @@
-public abstract class Shape implements Comparable<Shape>{
+public  class Shape implements Comparable<Shape>{
     @Override
     public String toString(){
         return "Shape: ";
     }
-    public abstract double getArea();
+    public  double getArea(){return 0.0;};
     @Override
     public int compareTo(Shape other) {
         double thisArea = this.getArea();
